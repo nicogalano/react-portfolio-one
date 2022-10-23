@@ -1,32 +1,49 @@
 import React from 'react'
 
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import js from '../assets/js.png'
+import python from '../assets/python.png'
+import cpp from '../assets/cpp.png'
 
 
 const Experience = () => {
     const techs = [
         {
             id: 1,
-            src: "html",
-            title: 'HMTL',
+            src: html,
+            title: 'HTML',
             style: 'shadow-orange-500' 
         },
         {
             id: 2,
-            src: "html",
-            title: 'HMTL',
+            src: css,
+            title: 'CSS',
             style: 'shadow-blue-500' 
         },
         {
             id: 3,
-            src: "html",
-            title: 'HMTL',
+            src: js,
+            title: 'JS',
             style: 'shadow-yellow-500' 
         },
+        {
+            id: 3,
+            src: python,
+            title: 'PYTHON',
+            style: 'shadow-green-500' 
+        },
+        {
+            id: 4,
+            src: cpp,
+            title: 'C++',
+            style: 'shadow-blue-500' 
+        }
     ]    
 
   return (
     <div name='experience' className='bg-gradient-to-b from-gray-800 to-black text-white md:h-scrren'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '> 
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'> 
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</p>
                 <p className='py-6'>These are the technologies I've worked with</p>

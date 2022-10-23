@@ -6,6 +6,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Up from "./components/Up";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Contact />
 
       <SocialLinks />
+      <Up />
     </div>
   );
 }
