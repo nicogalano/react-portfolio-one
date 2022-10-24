@@ -10,7 +10,7 @@ const Up = () => {
             to="home" 
             smooth 
             duration={500} 
-            className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'
+            className='text-white w-fit px-4 py-3 flex items-center rounded-md bg-gradient-to-r from-[#00df9a]/50 to-[#11994e]/50 cursor-pointer md:from-[#00df9a]  md:to-[#11994e]'
         >
             <span>
                 <FaArrowUp size={25} className='ml-1'/>

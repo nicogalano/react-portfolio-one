@@ -1,16 +1,19 @@
 import React from 'react'
 import hflow from '../assets/hflow.png'
+import Opscour from '../assets/opscour.png'
 
 const Portfolio = () => {
     const portfoios = [
         {
             id: 1,
-            src:hflow
+            src:hflow,
+            name:'hflow'
+        },
+        {
+            id: 2,
+            src:Opscour,
+            name:'opscour'
         }
-        // {
-        //     id: 2,
-        //     src:HeroImage
-        // },
         // {
         //     id: 3,
         //     src:HeroImage
@@ -39,7 +42,7 @@ const Portfolio = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
-                    portfoios.map(({ id, src }) => (
+                    portfoios.map(({ id, src, name }) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img 
                                 src={src} 
@@ -47,11 +50,8 @@ const Portfolio = () => {
                                 className='rounded-md duration-200 hover:scale-105'/>
                             <div className='flex items-center justify-center'>
                                 <button className='w-1/2 px-6 py-3 m-4 duration-200'>
-                                    Demo
-                                </button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200'>
-                                    Code
-                                </button>
+                                    {name}
+                                </button>                    
                             </div>
                         </div>
                         
