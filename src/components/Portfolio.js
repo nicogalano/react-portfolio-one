@@ -3,7 +3,7 @@ import hflow from '../assets/hflow.png'
 import Opscour from '../assets/opscour.png'
 
 const Portfolio = () => {
-    const portfoios = [
+    const portfolios = [
         {
             id: 1,
             src:hflow,
@@ -42,7 +42,7 @@ const Portfolio = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
-                    portfoios.map(({ id, src, name }) => (
+                    portfolios.map(({ id, src, name }) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img 
                                 src={src} 
