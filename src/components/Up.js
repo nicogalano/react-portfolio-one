@@ -7,10 +7,10 @@ const Up = () => {
   return (
     <div className='flex flex-col top-[90%] right-[1%] fixed'>
         <Link 
-            to="home" 
+            to="navbar" 
             smooth 
             duration={500} 
-            className='text-white w-fit px-4 py-3 flex items-center rounded-md bg-gradient-to-r from-[#00df9a]/50 to-[#11994e]/50 cursor-pointer md:from-[#00df9a]  md:to-[#11994e]'
+            className='text-[#1e1c27] w-fit px-4 py-3 flex items-center rounded-md bg-[#79AA8F] cursor-pointer'
         >
             <span>
                 <FaArrowUp size={25} className='ml-1'/>

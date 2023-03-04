@@ -6,28 +6,28 @@ const Navbar = () => {
   const links = [
     {
       id:1,
-      link:'inicio',
-      link_in:'home'
+      title:'inicio',
+      link:'home'
     },
     {
       id:2,
-      link:'Sobre',
-      link_in:'about'
+      title:'Sobre',
+      link:'about'
     },
     {
       id:3,
-      link:'portafolio',
-      link_in:'portfolio'
+      title:'portafolio',
+      link:'portfolio'
     },
     {
       id:4,
-      link:'experiencia',
-      link_in:'experience'
+      title:'experiencia',
+      link:'experience'
     },
     {
       id:5,
-      link:'contacto',
-      link_in:'contact'
+      title:'contacto',
+      link:'contact'
     }
   ]
   
@@ -38,13 +38,13 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-        <h1 className='w-full text-4xl text-[#e3d2b4] font-signature font-light'>NICOLAS<span className='font-extrabold'>GALANO</span></h1>
+    <div name='navbar' className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#e3d2b4]'>
+        <h1 className='w-full text-5xl text-[#DFE0B6] font-signature font-light'>NICOLAS<span className='font-extrabold text-[#e3d2b4]'>GALANO</span></h1>
         <ul className='hidden md:flex'>
-          {links.map(({id, link}) => (
+          {links.map(({id, link, title}) => (
             <li key={id} className='p-4 text-[#e3d2b4] cursor-pointer hover:scale-105 duration-200 capitalize'>
               <Link to={link} smooth duration={500}>
-                {link}
+                {title}
               </Link>
             </li>
           ))}
@@ -53,12 +53,12 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/>}
         </div>
         <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#1e1c27] ease-in-out duration-500' : 'fixed left-[-100%]'}>
-          <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>GALANO.</h1>
+          <h1 className='w-full text-3xl text-[#DFE0B6] font-signature font-light m-4'>NICOLAS<span className='font-extrabold text-[#e3d2b4]'>GALANO</span></h1>
           <ul className='p-4 uppercase'>
-            {links.map(({id, link}) => (
+            {links.map(({id, link, title}) => (
             <li key={id} className='p-4 border-b border-gray-600 capitalize cursor-pointer hover:scale-105 duration-200'>
               <Link onClick={handleNav} to={link} smooth duration={500}  >
-                {link}
+                {title}
               </Link>
             </li>
             ))}

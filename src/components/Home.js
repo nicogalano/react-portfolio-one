@@ -17,12 +17,12 @@ const Hero = () => {
               {/* Desarrollando soluciones digitales personalizadas para su negocio */}
             </p>
 
-            <div>
+            <div className='flex justify-center mt-8'>
               <Link 
-                to="portfolio" 
+                to="contact" 
                 smooth 
                 duration={500} 
-                className='group text-[#1e1c27] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-[#bde4b5] cursor-pointer font-bold'
+                className='group text-[#1e1c27] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-[#79AA8F] cursor-pointer font-signature font-bold'
               >
                 CONTÁCTAME
                 <span className='group-hover:rotate-90 duration-300'>

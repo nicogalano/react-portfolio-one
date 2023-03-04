@@ -33,10 +33,10 @@ const Portfolio = () => {
     ]
 
   return (
-    <div name='portfolio' className='bg-[#1e1c27] text-[#e3d2b4] md:h-scrren'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
+    <div name='portfolio' className='bg-[#1e1c27] text-[#e3d2b4] w-full h-screen'>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full '>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portafolio</p>
+                <p className='text-5xl font-bold flex justify-center'>Portafolio</p>
                 <p className='py-6'>Revisa algunos de mis trabajos</p>
                 {/* <p className='py-6'>Check out some of my work here</p> */}
             </div>

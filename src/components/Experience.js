@@ -42,10 +42,10 @@ const Experience = () => {
     ]    
 
   return (
-    <div name='experience' className='bg-[#1e1c27] text-[#e3d2b4] md:h-scrren'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'> 
+    <div name='experience' className='bg-[#1e1c27] text-[#e3d2b4] w-full h-screen'>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full'> 
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experiencia</p>
+                <p className='text-5xl font-bold flex justify-center'>Experiencia</p>
                 <p className='py-6'>Estas son las tecnologías con las que he trabajado</p>
                 {/* <p className='py-6'>These are the technologies I've worked with</p> */}
             </div>
