@@ -10,9 +10,9 @@ const Hero = () => {
 
         <div className="max-w-screen-lg mx-auto px-4 h-full flex flex-col items-center justify-center md:flex-row text-[#e3d2b4]">
           <div className='flex flex-col justify-center h-full'>
-            <h2 className='text-4xl sm:text-7xl font-bold text-[#e3d2b4]'>Desarrollador Full Stack</h2>
+            <h2 className='text-5xl sm:text-8xl font-bold text-[#e3d2b4] text-center md:text-left'>Desarrollador Full Stack</h2>
             {/* <h2 className='text-4xl sm:text-7xl font-bold text-[#e3d2b4]'>I'm a Full Stack Developer</h2> */}
-            <p className='text-[#e3d2b4] py-4 max-w-md'>
+            <p className='text-[#e3d2b4] py-4 max-w-md text-center md:text-left text-xl sm:text-2xl'>
               Ayudando a las empresas a alcanzar sus objetivos empresariales a través de la tecnología
               {/* Desarrollando soluciones digitales personalizadas para su negocio */}
             </p>

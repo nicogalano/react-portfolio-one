@@ -42,15 +42,15 @@ const Experience = () => {
     ]    
 
   return (
-    <div name='experience' className='bg-[#1e1c27] text-[#e3d2b4] w-full h-screen'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full'> 
+    <div name='experience' className='w-full bg-[#1e1c27] text-[#e3d2b4] md:h-screen'>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center md:h-full'> 
             <div className='pb-8'>
                 <p className='text-5xl font-bold flex justify-center'>Experiencia</p>
-                <p className='py-6'>Estas son las tecnologías con las que he trabajado</p>
+                <p className='py-6 text-xl'>Estas son las tecnologías con las que he trabajado</p>
                 {/* <p className='py-6'>These are the technologies I've worked with</p> */}
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 text-xl'>
                 {
                     techs.map(({ id, src, title, style }) => (
                         <div 
@@ -59,7 +59,7 @@ const Experience = () => {
                             <img 
                                 src={src} 
                                 alt="" 
-                                className='2-20 mx-auto'
+                                className='w-44 mx-auto'
                             />
                             <p className='mt-4'>{title}</p>
                         </div>
