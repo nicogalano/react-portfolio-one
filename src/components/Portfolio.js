@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w/full md:h-full'>
             <div className=''>
                 <p className='text-5xl font-bold flex justify-center'>Portafolio</p>
-                <p className='my-6 text-xl'>Revisa algunos de mis trabajos</p>
+                <p className='my-6 md:text-xl text-md'>Revisa algunos de mis trabajos</p>
                 {/* <p className='py-6'>Check out some of my work here</p> */}
             </div>
 

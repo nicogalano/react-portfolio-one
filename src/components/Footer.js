@@ -9,9 +9,9 @@ const Footer = () => {
         setNav(!nav)
     }
     return (
-        <footer className="p-4 text-[#e3d2b4] rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-            <span className="text-sm sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Nicolas Galano™</a>. All Rights Reserved.</span>
-            <ul className="flex flex-wrap items-center mt-3 text-sm dark:text-gray-400 sm:mt-0">
+        <footer className="w-full mt-40 p-4 text-[#e3d2b4] rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 bg-[#1e1c27]">
+            <span className="text-sm  sm:text-center dark:text-gray-400">© 2023 <a href="https://nicolasgalano.com/" className="hover:underline">Nicolas Galano™</a>. All Rights Reserved.</span>
+            <ul className="flex flex-wrap items-center mt-3 text-sm sm:mt-0">
                 <li>
                     <Link onClick={handleNav} to='navbar' smooth duration={500} className="mr-4 hover:underline md:mr-6">
                         Inicio

@@ -46,7 +46,7 @@ const Experience = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center md:h-full'> 
             <div className='pb-8'>
                 <p className='text-5xl font-bold flex justify-center'>Experiencia</p>
-                <p className='py-6 text-xl'>Estas son las tecnologías con las que he trabajado</p>
+                <p className='py-6 md:text-xl text-md'>Estas son las tecnologías con las que he trabajado</p>
                 {/* <p className='py-6'>These are the technologies I've worked with</p> */}
             </div>
 

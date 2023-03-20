@@ -4,14 +4,14 @@ const Contact = () => {
 
   return (
     <div name='contact' className='w-full h-screen bg-[#1e1c27] text-[#e3d2b4] p-4 '>
-        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto md:h-full'>
-            <div className='pb-8'>
+        <div className='flex flex-col p-2 md:p-4 justify-center max-w-screen-lg mx-auto md:h-full'>
+            <div className='md:pb-8'>
                 <p className='text-5xl font-bold flex justify-center'>Contacto</p>
-                <p className='py-6 text-xl'>Si estás interesado en trabajar juntos o tienes alguna pregunta, por favor no dudes en ponerte en contacto conmigo a través de este formulario</p>
+                <p className='py-6 md:text-xl text-md'>Si estás interesado en trabajar juntos o tienes alguna pregunta, por favor no dudes en ponerte en contacto conmigo a través de este formulario</p>
                 {/* <p className='py-6'>Submit the form below to get in touch with me</p> */}
             </div>
 
-            <div className='flex justify-center items-center text-[#DFE0B6] text-xl'>
+            <div className='flex justify-center items-center text-[#DFE0B6] md:text-xl text-md'>
                 <form 
                     action="https://getform.io/f/607d9a45-eccb-4820-b20c-36695ca40b4f" 
                     method="POST" 

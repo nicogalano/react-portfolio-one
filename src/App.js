@@ -19,7 +19,6 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
-
       <SocialLinks />
       <Up />
     </div>
