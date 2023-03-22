@@ -1,5 +1,6 @@
 {
   "name": "portfolio-one",
+  "homepage": "http://nicolasgalano.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

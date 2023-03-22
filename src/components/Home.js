@@ -17,7 +17,7 @@ const Hero = () => {
               {/* Desarrollando soluciones digitales personalizadas para su negocio */}
             </p>
 
-            <div className='flex justify-center mt-8'>
+            <div className='flex justify-center md:justify-left mt-8'>
               <Link 
                 to="contact" 
                 smooth 
